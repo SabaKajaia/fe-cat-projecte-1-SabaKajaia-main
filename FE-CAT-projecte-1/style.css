@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-image: url(/FE-CAT-projecte-1/Photos/Image.png),url(/FE-CAT-projecte-1/Photos/Decore.png),url(/FE-CAT-projecte-1/Photos/Ellipse\ 8.png);
+    background-repeat: no-repeat;
+    background-position-x: right,right,left;
+    background-size: 640px,700px 581px,230px;
+    background-position-y: 55px,0px,top;
+    
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin: 19px 0 0 94px;
+}
+.logo{
+    width: 114px;
+    height: 33px;
+    cursor: pointer;
+}
+nav ul{
+    display: flex;
+    margin: 0 100px 0 0;
+}
+li{
+    list-style: none;
+    margin: 0 0 0 45px;
+    font-size: 17px;
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+    color: #212832;
+}
+.sign-up{
+    border: 1px solid;
+    border-radius: 4px;
+    width: 80px;
+    padding: 2px;
+    text-align: center;
+}
+
+#language{
+    width: 80px;
+    border: none;
+    background: none;
+    font-size: 16px;
+}
+.menu-btn i{
+    display: none;
+}
+#click{
+    display: none;
+}
+
+li :hover{
+    color: #f8a800;
+}
+.desc{
+    width: 572px;
+    height: 445px;
+    margin: 129px 0 0 95px;
+}
+.tagline{
+    font-size: 20px;
+    font-weight: bold;
+    color: #DF6951;
+}
+.heading{
+    font-size: 67px;
+    line-height: 65px;
+    color: #181E4B;
+    font-family: Volkhov;
+    margin: 24px 0 0 0;
+    background-image: url(/FE-CAT-projecte-1/Photos/Decore-1.png);
+    background-repeat: no-repeat;
+    background-position-x: 234px;
+    background-position-y: 54px;
+}
+.description{
+    color: #5E6282;
+    font-size: 16px;
+    font-family: poppins;
+    margin: 30px 0 0 0;
+    width: 450px;
+}
+.btns{
+    display: flex;
+    width: 270px;
+    height: 50px;
+    margin: 34px 0 0 0;
+}
+.find-out-more{
+    width: 110px;
+    height: 40px;
+    background: #fbb319;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.play-demo{
+    margin: -8px 0 0 4px;
+    width: 78px;
+}
+.play{
+    margin: -66px 0 0 70px;
+}
+
