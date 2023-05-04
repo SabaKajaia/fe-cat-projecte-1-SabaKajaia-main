@@ -111,3 +111,61 @@ li :hover{
     margin: -66px 0 0 70px;
 }
 
+.services{
+    /* width: 1179px;
+    height: 380px; */
+    margin: 80px auto 60px;
+    background-image: url(/Group\ 4.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-size: 115px;
+}
+.category{
+    text-align: center;
+    font-family: poppins;
+    color: #5E6282;
+}
+.category-title{
+    margin: 10px 0 0 0;
+    text-align: center;
+    font-size: 36px;
+    font-family: volkhov;
+    color: #14183E;
+}
+.flex{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.offer-cards{
+    width: 178px;
+    height: 200px;
+    border-radius: 15px;
+    margin: 40px;
+    cursor: pointer;
+}
+.offer-cards:hover{
+    box-shadow: 0px 0px 10px -3px;
+    
+}
+.group-51{
+    width: 100px;
+    height: 78px;
+}
+.png{
+    margin: 4px 0 0 40px;
+}
+.offer-cards-title{
+    text-align: center;
+    font-size: 16px;
+    margin: 9px 0 4px 0;
+    color:#1E1D4C;
+}
+.offer-cards-desc{
+    text-align: center;
+    color: #5E6282;
+    font-size: 13px;
+    padding: 10px;
+    font-family: poppins;
+}
