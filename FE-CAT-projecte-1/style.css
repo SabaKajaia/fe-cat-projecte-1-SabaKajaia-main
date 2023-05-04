@@ -202,3 +202,107 @@ li :hover{
     font-family: poppins;
     color:#5E6282;
 }
+
+.booking-info{
+    /* width: 1000px; */
+    margin: 80px auto;
+    background-image: url(/Group\ 589.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: -100px;
+    background-size: 460px;
+}
+.booking-process{
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+.booking{
+    margin: 30px auto;
+}
+.easy-and-fast{
+    font-family: poppins;
+    color: #5E6282;
+    font-size: 18px;
+    font-weight: bold;
+}
+.booking-steps-heading{
+    font-size: 40px;
+    font-family: volkhov;
+    color: #14183E;
+    width: 489px;
+    margin: 10px 0 0 0;
+}
+.booking-steps{
+    width: 260px;
+    height: 60px;
+    margin: 25px 0;
+    display: flex;
+}
+.booking-icons{
+    width: 40px;
+    height: 40px;
+    margin: auto;
+}
+.process{
+    margin: 0 0 0 10px;
+    padding: 4px;
+}
+.process h5{
+    font-size: 13px;
+    color: #5E6282;
+}
+.process p{
+    font-size: 10px;
+    color: #5E6282;
+}
+.booking-card{
+    width: 293px;
+    height: 300px;
+    margin: auto;
+    background: #ffff;
+    border-radius: 25px;
+    box-shadow: 0px 0px 10px -3px;
+}
+.booking-card-card{
+    width: 260px;
+    height: 120px;
+    border-radius: 20px;
+    margin: 22px auto;
+
+}
+.booking-card-card-image{
+    width: 100%;
+    height: 100%;
+    border-radius: 21px;    
+}
+.trip-details{
+    margin: 0 0 0 16px;
+}
+.trip-destination{
+    font-size: 15px;
+}
+.trip-date{
+    font-size: 12px;
+    margin: 10px 0;
+    color: #84829A;
+}
+/* .trip-info{
+
+} */
+.trip-info-icon{
+    width: 10%;
+}
+
+.no-of-people{
+    display: flex;
+    color:#84829A;
+    font-size: 12px;
+}
+.number-of-people{
+    margin: 0 0 0 7px;
+}
+.heart{
+    position: relative;
+    left: 225px;
+    bottom: 20px;
+}
